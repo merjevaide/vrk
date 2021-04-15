@@ -1,0 +1,42 @@
+body{background-color: floralwhite;}
+*{box-sizing: border-box;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.container{
+    background-color: khaki;
+    padding:20px;
+    border-radius: 5px;
+}
+.col-20{
+    float:left;
+    width:20%;
+    margin-top: 10px;
+}
+.col-80{
+    float:left;
+    width:80%;
+    margin-top: 10px;
+}
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+input{
+    border:solid 1px goldenrod;
+}
+button,input[type=submit],input[type=reset]{
+    background-color: olive;
+    border:none;
+    float:left;
+    border-radius:5px;
+    margin:5px;
+    cursor:pointer;
+    padding:10px;
+}
+h2{color:goldenrod;}
+textarea{
+    height:60px;
+    width:30%;
+    border:solid 1px goldenrod;
+    border-radius: 5px;
+}
